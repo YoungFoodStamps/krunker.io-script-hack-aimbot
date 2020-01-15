@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name         krunker hack 1.9.6 aimbot wallhack 2020 new hack cheat krunker.io bug unblocked
-// @version      1.9.6.4
+// @version      1.9.6.4+
 // @description  the first working hack in 1.9.6
-// @author       ZeusLUAP/ Modified by CerealBoy
+// @author       ZeusLUAP/ Modified by RealCerealBoy
 // @match        *://krunker.io/*
 // @run-at       document-start
 // @grant        none
 // @noframes
 // ==/UserScript==
 //******************************************************************************************************************
-// This script was origanally made by ZeusLUAP but it got tooken down forked from greasyfork, this is an actual season 2
+// This script was origanally made by ZeusLUAP but it got tooken down, forked from greasyfork, this is an actual season 2
 // Working Script, I edited this for more precison
 //******************************************************************************************************************
 (function() {
@@ -245,7 +245,7 @@
         for (const [name, search] of regex) {
             const found = search.exec(script);
             if (!found) {
-                alert(`Failed to find ${name}`);
+                alert(`Failed to find ${name}, This will still work though, check console for more info`);
                 vars[name] = null;
                 continue;
             } else {
@@ -261,14 +261,13 @@
                 apply: function(_target, _this, _arguments) {
                     let _returnValue = _target.apply(_this, _arguments);
                     // uncomment for hook logs - skid
-                    /*
                     console.log('//======================================================================================>');
                     console.log('HOOKED: ', _target.name, '\n');
                     console.log('Parent: ', _this);
                     console.log('Arguments: ', _arguments);
                     console.log('ReturnValue: ', _returnValue);
                     console.log('//======================================================================================>');
-                    */
+                    
 
                     fn({
                         main: _this,
