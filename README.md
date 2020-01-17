@@ -8,3 +8,5 @@ Even though this has been edited for accuracy purposes, this will not prevent yo
 # TROUBLE SHOOTING
 
 ## DO NOT SPAM ISSUES, if you have issues or questions regarding this project, email me at nicenoscopedave@gmail.com or open an issue feel free to make pull reqeusts.
+
+# DO NOT PRETEND YOU MADE IT (GOES TO ALL FORKERS) ELSE YOU WILL LOOK LIKE AN IDIOT!!! PEOPLE KNOW THAT WHEN ITS OBVIOUS
